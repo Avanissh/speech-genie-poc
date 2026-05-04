@@ -1,0 +1,285 @@
+{
+    "backends": {
+        "xtts": {
+            "runs": 6,
+            "rtf_mean": 7.014,
+            "rtf_median": 6.989,
+            "rtf_min": 6.255,
+            "rtf_max": 7.562,
+            "processing_time_mean": 62.987,
+            "audio_duration_mean": 8.804,
+            "realtime_runs": 0,
+            "speaker_similarity_mean": 0.759,
+            "per_sentence": [
+                {
+                    "label": "short_greeting",
+                    "words": 7,
+                    "rtf": 6.255,
+                    "processing_time": 15.078,
+                    "audio_duration": 2.411,
+                    "realtime": false,
+                    "speaker_similarity": 0.699
+                },
+                {
+                    "label": "short_affirmative",
+                    "words": 6,
+                    "rtf": 7.405,
+                    "processing_time": 14.77,
+                    "audio_duration": 1.995,
+                    "realtime": false,
+                    "speaker_similarity": 0.724
+                },
+                {
+                    "label": "medium_explain",
+                    "words": 15,
+                    "rtf": 6.88,
+                    "processing_time": 31.265,
+                    "audio_duration": 4.544,
+                    "realtime": false,
+                    "speaker_similarity": 0.762
+                },
+                {
+                    "label": "medium_response",
+                    "words": 12,
+                    "rtf": 7.003,
+                    "processing_time": 29.209,
+                    "audio_duration": 4.171,
+                    "realtime": false,
+                    "speaker_similarity": 0.774
+                },
+                {
+                    "label": "long_response",
+                    "words": 39,
+                    "rtf": 7.562,
+                    "processing_time": 137.292,
+                    "audio_duration": 18.155,
+                    "realtime": false,
+                    "speaker_similarity": 0.807
+                },
+                {
+                    "label": "long_explanation",
+                    "words": 42,
+                    "rtf": 6.976,
+                    "processing_time": 150.307,
+                    "audio_duration": 21.547,
+                    "realtime": false,
+                    "speaker_similarity": 0.787
+                }
+            ]
+        },
+        "vits": {
+            "runs": 6,
+            "rtf_mean": 1.585,
+            "rtf_median": 1.553,
+            "rtf_min": 1.496,
+            "rtf_max": 1.726,
+            "processing_time_mean": 13.848,
+            "audio_duration_mean": 8.943,
+            "realtime_runs": 0,
+            "speaker_similarity_mean": 0.537,
+            "per_sentence": [
+                {
+                    "label": "short_greeting",
+                    "words": 7,
+                    "rtf": 1.673,
+                    "processing_time": 5.092,
+                    "audio_duration": 3.043,
+                    "realtime": false,
+                    "speaker_similarity": 0.484
+                },
+                {
+                    "label": "short_affirmative",
+                    "words": 6,
+                    "rtf": 1.726,
+                    "processing_time": 4.07,
+                    "audio_duration": 2.358,
+                    "realtime": false,
+                    "speaker_similarity": 0.55
+                },
+                {
+                    "label": "medium_explain",
+                    "words": 15,
+                    "rtf": 1.496,
+                    "processing_time": 8.406,
+                    "audio_duration": 5.621,
+                    "realtime": false,
+                    "speaker_similarity": 0.568
+                },
+                {
+                    "label": "medium_response",
+                    "words": 12,
+                    "rtf": 1.552,
+                    "processing_time": 8.436,
+                    "audio_duration": 5.435,
+                    "realtime": false,
+                    "speaker_similarity": 0.554
+                },
+                {
+                    "label": "long_response",
+                    "words": 39,
+                    "rtf": 1.507,
+                    "processing_time": 23.64,
+                    "audio_duration": 15.688,
+                    "realtime": false,
+                    "speaker_similarity": 0.533
+                },
+                {
+                    "label": "long_explanation",
+                    "words": 42,
+                    "rtf": 1.554,
+                    "processing_time": 33.446,
+                    "audio_duration": 21.515,
+                    "realtime": false,
+                    "speaker_similarity": 0.534
+                }
+            ]
+        },
+        "piper": {
+            "runs": 6,
+            "rtf_mean": 0.172,
+            "rtf_median": 0.175,
+            "rtf_min": 0.142,
+            "rtf_max": 0.197,
+            "processing_time_mean": 1.041,
+            "audio_duration_mean": 6.71,
+            "realtime_runs": 6,
+            "speaker_similarity_mean": 0.539,
+            "per_sentence": [
+                {
+                    "label": "short_greeting",
+                    "words": 7,
+                    "rtf": 0.185,
+                    "processing_time": 0.346,
+                    "audio_duration": 1.869,
+                    "realtime": true,
+                    "speaker_similarity": 0.472
+                },
+                {
+                    "label": "short_affirmative",
+                    "words": 6,
+                    "rtf": 0.196,
+                    "processing_time": 0.291,
+                    "audio_duration": 1.486,
+                    "realtime": true,
+                    "speaker_similarity": 0.513
+                },
+                {
+                    "label": "medium_explain",
+                    "words": 15,
+                    "rtf": 0.165,
+                    "processing_time": 0.676,
+                    "audio_duration": 4.098,
+                    "realtime": true,
+                    "speaker_similarity": 0.561
+                },
+                {
+                    "label": "medium_response",
+                    "words": 12,
+                    "rtf": 0.197,
+                    "processing_time": 0.738,
+                    "audio_duration": 3.738,
+                    "realtime": true,
+                    "speaker_similarity": 0.546
+                },
+                {
+                    "label": "long_response",
+                    "words": 39,
+                    "rtf": 0.148,
+                    "processing_time": 1.773,
+                    "audio_duration": 12.016,
+                    "realtime": true,
+                    "speaker_similarity": 0.576
+                },
+                {
+                    "label": "long_explanation",
+                    "words": 42,
+                    "rtf": 0.142,
+                    "processing_time": 2.421,
+                    "audio_duration": 17.055,
+                    "realtime": true,
+                    "speaker_similarity": 0.564
+                }
+            ]
+        },
+        "openvoice": {
+            "runs": 6,
+            "rtf_mean": 2.451,
+            "rtf_median": 2.49,
+            "rtf_min": 1.813,
+            "rtf_max": 2.978,
+            "processing_time_mean": 13.994,
+            "audio_duration_mean": 6.71,
+            "realtime_runs": 0,
+            "speaker_similarity_mean": 0.576,
+            "per_sentence": [
+                {
+                    "label": "short_greeting",
+                    "words": 7,
+                    "rtf": 2.974,
+                    "processing_time": 5.558,
+                    "audio_duration": 1.869,
+                    "realtime": false,
+                    "speaker_similarity": 0.549
+                },
+                {
+                    "label": "short_affirmative",
+                    "words": 6,
+                    "rtf": 2.978,
+                    "processing_time": 4.426,
+                    "audio_duration": 1.486,
+                    "realtime": false,
+                    "speaker_similarity": 0.518
+                },
+                {
+                    "label": "medium_explain",
+                    "words": 15,
+                    "rtf": 2.529,
+                    "processing_time": 10.364,
+                    "audio_duration": 4.098,
+                    "realtime": false,
+                    "speaker_similarity": 0.573
+                },
+                {
+                    "label": "medium_response",
+                    "words": 12,
+                    "rtf": 2.452,
+                    "processing_time": 9.165,
+                    "audio_duration": 3.738,
+                    "realtime": false,
+                    "speaker_similarity": 0.592
+                },
+                {
+                    "label": "long_response",
+                    "words": 39,
+                    "rtf": 1.958,
+                    "processing_time": 23.529,
+                    "audio_duration": 12.016,
+                    "realtime": false,
+                    "speaker_similarity": 0.611
+                },
+                {
+                    "label": "long_explanation",
+                    "words": 42,
+                    "rtf": 1.813,
+                    "processing_time": 30.92,
+                    "audio_duration": 17.055,
+                    "realtime": false,
+                    "speaker_similarity": 0.611
+                }
+            ]
+        }
+    },
+    "comparison": {
+        "vits_speedup_over_xtts": "4.4x",
+        "piper_speedup_over_xtts": "40.8x",
+        "piper_speedup_over_vits": "9.2x",
+        "piper_speedup_over_openvoice": "14.3x",
+        "research_finding": "No current off-the-shelf solution achieves both real-time RTF and voice cloning on CPU. XTTS clones but runs at 6x slower than real-time. OpenVoice clones but tone conversion costs 3-5x RTF on CPU. Piper is real-time but has no voice cloning. Fine-tuned Piper is proposed as future work to bridge this gap.",
+        "recommendation": {
+            "live_conversation": "piper      \u2014 RTF 0.14, real-time, edge-ready",
+            "voice_cloning": "xtts       \u2014 zero-shot cloning, offline profile creation",
+            "cloning_tradeoff": "openvoice  \u2014 partial cloning, CPU-constrained (~3-5x RTF)",
+            "fallback": "vits       \u2014 no cloning, RTF 1.3x, already on device"
+        }
+    }
+}

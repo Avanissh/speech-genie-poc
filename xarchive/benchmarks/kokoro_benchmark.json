@@ -1,0 +1,69 @@
+{
+    "backend": "kokoro",
+    "voice": "af_heart",
+    "runs": 6,
+    "rtf_mean": 1.642,
+    "rtf_median": 1.657,
+    "rtf_min": 1.495,
+    "rtf_max": 1.704,
+    "realtime_runs": 0,
+    "speaker_similarity_mean": 0.527,
+    "voice_cloning": false,
+    "notes": "Pre-trained voices only. No zero-shot cloning.",
+    "per_sentence": [
+        {
+            "label": "short_greeting",
+            "words": 7,
+            "processing_time": 4.212,
+            "audio_duration": 2.475,
+            "rtf": 1.702,
+            "realtime": false,
+            "speaker_similarity": 0.487
+        },
+        {
+            "label": "short_affirmative",
+            "words": 6,
+            "processing_time": 3.389,
+            "audio_duration": 2.05,
+            "rtf": 1.653,
+            "realtime": false,
+            "speaker_similarity": 0.513
+        },
+        {
+            "label": "medium_explain",
+            "words": 15,
+            "processing_time": 7.363,
+            "audio_duration": 4.925,
+            "rtf": 1.495,
+            "realtime": false,
+            "speaker_similarity": 0.52
+        },
+        {
+            "label": "medium_response",
+            "words": 12,
+            "processing_time": 7.54,
+            "audio_duration": 4.425,
+            "rtf": 1.704,
+            "realtime": false,
+            "speaker_similarity": 0.527
+        },
+        {
+            "label": "long_response",
+            "words": 39,
+            "processing_time": 22.045,
+            "audio_duration": 13.275,
+            "rtf": 1.661,
+            "realtime": false,
+            "speaker_similarity": 0.561
+        },
+        {
+            "label": "long_explanation",
+            "words": 42,
+            "processing_time": 32.732,
+            "audio_duration": 19.975,
+            "rtf": 1.639,
+            "realtime": false,
+            "speaker_similarity": 0.555
+        }
+    ]
+}

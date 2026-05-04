@@ -1,0 +1,24 @@
+cd D:\speech_poc
+
+@"
+# Environments
+venv/
+sopro_env/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Large model files
+models/
+
+# Generated audio outputs
+assets/outputs/
+
+# VS Code
+.vscode/
+
+# Sensitive config (has hardcoded paths)
+config.py
+"@ | Out-File -FilePath .gitignore -Encoding utf8
