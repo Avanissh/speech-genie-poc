@@ -22,3 +22,10 @@ assets/outputs/
 # Sensitive config (has hardcoded paths)
 config.py
 "@ | Out-File -FilePath .gitignore -Encoding utf8
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Cache
+.cache/
